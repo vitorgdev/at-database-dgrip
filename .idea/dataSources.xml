@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="AVL REPORTS PRD" uuid="755df8cd-659f-4b35-af51-b2d0ec57dc5b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://avl-reports-prd.cluster-cvhoadqdxzxg.us-east-1.rds.amazonaws.com:3306/avlreports</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="AVL QUESTIONS PRD" uuid="d40a347a-4e68-45c9-b7bf-2a5904851500">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://avl-question-prd.cluster-cvhoadqdxzxg.us-east-1.rds.amazonaws.com:3306/avlquestion</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="AVL ANSWERS PRD" uuid="aec8ac89-b719-417e-8715-d490786aa46b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://platform-answers-backend-prd-aurora-cluster.cluster-c7o0cyou7uii.us-east-1.rds.amazonaws.com:3306/platformanswersbackendprd</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="AVL ACTIVITY PRD" uuid="650273f7-31f9-477b-ac9a-b031f2f736ef">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://avl-activity-backend-prd-aurora-cluster.cluster-cvhoadqdxzxg.us-east-1.rds.amazonaws.com:3306/avlactivitybackendprd</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
